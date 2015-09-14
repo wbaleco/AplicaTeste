@@ -15,7 +15,7 @@ public class JogoAranha extends JFrame {
 
 	int posSpiderx = 300;
 	int posSpidery = 150;
-
+//Teste
 	public JogoAranha() {
 		editarJanela();
 		editarComponentes();
@@ -40,7 +40,7 @@ public class JogoAranha extends JFrame {
 			@Override
 			public void keyPressed(KeyEvent e) {
 				// System.out.println(e.getKeyCode()); --> Esta linha serve para
-				// pegar o código da tecla presionada.
+				// pegar o cÃ³digo da tecla presionada.
 				lspider.setIcon(iconSpiderMexendo);
 				
 				if (e.getKeyCode() == 38) {
